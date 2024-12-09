@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 100vh;
+      background: linear-gradient(135deg, #FFA0E2, #FFA0E2);
+      overflow: hidden;
+    }
+    .container {
+      text-align: center;
+      color: #fff;
+    }
+    .cake {
+      font-size: 6rem; 
+      color: #ff6f61;
+    }
+    h1 {
+      font-size: 3.5rem;
+      margin: 20px 0;
+      animation: fadeIn 2s;
+    }
+    p {
+      font-size: 1.8rem;
+      margin: 10px 0;
+      animation: fadeIn 2s 1s;
+    }
+    .birthday-image {
+      width: 25%;
+      height: auto;
+      margin: 20px 0;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      animation: fadeIn 2s 1.5s;
+    }
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    button {
+      margin-top: 20px;
+      padding: 15px 30px;
+      font-size: 1.5rem;
+      background-color: #ff6f61;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      cursor: pointer;
+      animation: fadeIn 2s 2s;
+      position: relative; 
+      z-index: 10; 
+    }
+    button:hover {
+      background-color: #ff4f41;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="cake">🎂</div>
+    <h1>สุขสันต์วันเกิด</h1>
+    <h1>ขอให้วันนี้เต็มไปด้วยความสุข ความรัก และเสียงหัวเราะ</h1>
+    <img
+      src="https://cdn.discordapp.com/attachments/1069171890154901556/1315035140531159040/S__13795343.jpg?ex=6755f169&is=67549fe9&hm=c4f2d20fa9611a90c546af74d4f605d8882a22713a2d4497a3beb463862eefb4&"
+      alt="รูปวันเกิดน่ารักๆ"
+      class="birthday-image">
+  </div>
+    <button onclick="alert('โตขึ้นอีกปีเเล้วนะเพื่อน ขอให้สุขภาพเเข็งเเรงนะเพื่อน ดีใจที่ได้รู้จักกันดีใจที่ได้เป็นเพื่อนกันนะ💖')">คลิกเพื่อรับพรวันเกิด💖💖</button>
+    <button onclick="alert('กูรักมึงนะเพื่อน💖')">คลิกอีกทีเพื่อน</button>
+</body>
+</html>
